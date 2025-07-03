@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays-question</title>
+</head>
+
+<body>
+    <script>
+
+        // Question #1 
+
+        // Insert elemnet in specific index in an array
+
+        // Manually
+
+        // let arr = [1,2,3,4,5,7,8,9];
+        // let el = 6;
+        // let position = 5
+
+        // for (let i = arr.length-1; i >=0 ; i--) {
+        //    arr[i+1] = arr[i]
+
+        //    if (i === position) {
+        //     arr[i] = el
+        //     break
+        //    }
+
+        // }
+        // console.log(arr);
+
+        // Built-in function
+
+        // arr.splice(position,0,el);
+
+        // console.log(arr);
+
+        // Question #2
+
+        // Make an array define postion and delete element
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        // let position = 5;
+
+        // for (let i = 0; i < arr.length-2; i++) {
+        //     if (i >= position) {
+        //         arr[i] = arr[i + 1];
+        //     }
+
+        // }
+        // console.log(arr);
+
+        // Built-in function
+
+        // arr.splice(position, 1);
+        // console.log(arr);
+
+        // Question #3
+
+        // Make an array and search for an element
+
+        // let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+        // let el = 5
+
+        // for (let i = 0; i < arr.length; i++) {
+
+        //     if (arr[i] === el) {
+        //         console.log('Element ' + el + ' index is ' + i);
+
+        //     }
+        // }
+
+
+        // Built-in function
+
+        // console.log(
+        //     arr.indexOf(el)
+        // );
+
+
+        // Question #4
+
+        // Merge two array & sort 
+
+        // let arr = [1,2,3,4,5];
+        // let arr2 = [6,7,8,9,10];
+
+
+        // for (let i = 0; i < arr2.length; i++) {
+
+        //     arr[arr.length] = arr2[i]; 
+
+        // }
+
+        // console.log(arr);
+
+
+        // Question #5 
+
+        // Merg two array and sort 
+
+
+        // let arr = [1, 3, 8, 4, 5];
+        // let arr2 = [6, 7, 2, 9, 10, 11, 12];
+
+        // let arrlength = arr.length
+
+        // for (let i = 0; i < arrlength || i < arr2.length; i++) {
+
+        //     arr[arr.length] = arr2[i];
+
+        //     for (let j = 0; j < arr.length; j++) {
+
+        //         if (arr[i] < arr[j]) {
+        //             let temp = arr[i];
+        //             arr[i] = arr[j];
+        //             arr[j] = temp
+        //         }
+
+
+
+
+        //     }
+        // }
+        // console.log(arr);
+
+        
+    </script>
+</body>
+
+</html>
